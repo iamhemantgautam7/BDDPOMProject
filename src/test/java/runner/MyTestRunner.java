@@ -6,7 +6,7 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
 		features= "src//test//resources//features//PlaceOrder.feature",
 		glue = {"stepDefs"},
-		//dryRun= true,
+		dryRun= false,
 		monochrome=true,
 		plugin = {"pretty",
 				"html:target//reports/HTMLReport.html"

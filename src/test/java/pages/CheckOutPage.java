@@ -37,7 +37,8 @@ public class CheckOutPage {
 
 	}
 
-	public void continueOrder() {
+	public void continueOrder()  {
+		//Thread.sleep(5000);
 		contBtn.click();
 
 	}
